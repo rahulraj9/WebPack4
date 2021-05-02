@@ -6,6 +6,7 @@ h1 {
     font-family: monospace;
     justify-content: center;
     text-align: center;
+    color: darkgrey;
 }
 
 #image {

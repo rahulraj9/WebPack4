@@ -4,7 +4,8 @@
     "description": "Learning About WebPack",
     "main": "index.js",
     "scripts": {
-        "build": "webpack "
+        "build": "webpack ",
+        "start:dev": "webpack-dev-server"
     },
     "author": "Rahul Raj",
     "license": "MIT",
@@ -15,8 +16,10 @@
         "babel-loader": "^8.2.2",
         "css-loader": "^5.2.4",
         "style-loader": "^2.0.0",
+        "url-loader": "^4.1.1",
         "webpack": "^4.28.4",
-        "webpack-cli": "^3.2.1"
+        "webpack-cli": "^3.2.1",
+        "webpack-dev-server": "^3.11.2"
     },
     "dependencies": {
         "jquery": "^3.6.0",
