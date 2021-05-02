@@ -1,9 +1,21 @@
 import React from 'react'
-import {render} from 'react-dom'
+import { render } from 'react-dom'
 import './style.css'
-const Greeting =()=><h1>Hello From React</h1>
+const Greeting = () => {
+    return(
+        <>
+        <h1>Hello From React</h1>
+        <div id="image">
+        </div>
+    </>
+    )
+  
+}
+
+
+
 
 render(
-    <Greeting/>,
+    <Greeting />,
     document.getElementById('target')
 )

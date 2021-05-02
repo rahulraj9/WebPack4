@@ -1,3 +1,16 @@
+body {
+    background-color: darkgreen;
+}
+
 h1 {
     font-family: monospace;
+    justify-content: center;
+    text-align: center;
+}
+
+#image {
+    background: url('cover-a1d5b40.png');
+    height: 800px;
+    justify-content: center;
+    align-items: center;
 }
